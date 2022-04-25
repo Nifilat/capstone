@@ -15,11 +15,11 @@ const server = http.createServer((req, res) => {
   if (urlPath === "/") {
     res.statusCode = 200;
     res.setHeader("Content-Type", "text/html");
-    fs.createReadStream("./index.html").pipe(res);
+    fs.createReadStream("pages/index.html").pipe(res);
   } else if (urlPath === "/about") {
     res.statusCode = 200;
     res.setHeader("Content-Type", "text/html");
-    fs.createReadStream("./about.html").pipe(res);
+    fs.createReadStream("pages/about.html").pipe(res);
   } else if (urlPath === "/sys") {
     res.statusCode = 201;
     res.setHeader("Content-Type", "application/json");
@@ -27,7 +27,7 @@ const server = http.createServer((req, res) => {
   } else {
     res.statusCode = 404;
     res.setHeader("Content-Type", "text/html");
-    fs.createReadStream("./404.html").pipe(res);
+    fs.createReadStream("pages/404.html").pipe(res);
   }
 });
 
