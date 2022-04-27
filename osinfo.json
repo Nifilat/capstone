@@ -1,0 +1,222 @@
+{
+  "osHostName": "LATUNDEs-MacBook-Air.local",
+  "osPlatform": "darwin",
+  "architecture": "arm64",
+  "numberofCPUS": [
+    {
+      "model": "Apple M1",
+      "speed": 24,
+      "times": {
+        "user": 5285370,
+        "nice": 0,
+        "sys": 4173640,
+        "idle": 34897750,
+        "irq": 0
+      }
+    },
+    {
+      "model": "Apple M1",
+      "speed": 24,
+      "times": {
+        "user": 4912740,
+        "nice": 0,
+        "sys": 3825580,
+        "idle": 35617300,
+        "irq": 0
+      }
+    },
+    {
+      "model": "Apple M1",
+      "speed": 24,
+      "times": {
+        "user": 4036730,
+        "nice": 0,
+        "sys": 3250650,
+        "idle": 37068270,
+        "irq": 0
+      }
+    },
+    {
+      "model": "Apple M1",
+      "speed": 24,
+      "times": {
+        "user": 3551240,
+        "nice": 0,
+        "sys": 2793700,
+        "idle": 38010660,
+        "irq": 0
+      }
+    },
+    {
+      "model": "Apple M1",
+      "speed": 24,
+      "times": {
+        "user": 2026510,
+        "nice": 0,
+        "sys": 1918690,
+        "idle": 40410420,
+        "irq": 0
+      }
+    },
+    {
+      "model": "Apple M1",
+      "speed": 24,
+      "times": {
+        "user": 1518470,
+        "nice": 0,
+        "sys": 1169990,
+        "idle": 41667180,
+        "irq": 0
+      }
+    },
+    {
+      "model": "Apple M1",
+      "speed": 24,
+      "times": {
+        "user": 1017560,
+        "nice": 0,
+        "sys": 684950,
+        "idle": 42653130,
+        "irq": 0
+      }
+    },
+    {
+      "model": "Apple M1",
+      "speed": 24,
+      "times": {
+        "user": 703320,
+        "nice": 0,
+        "sys": 476640,
+        "idle": 43175630,
+        "irq": 0
+      }
+    }
+  ],
+  "osNetworkInterfaces": {
+    "lo0": [
+      {
+        "address": "127.0.0.1",
+        "netmask": "255.0.0.0",
+        "family": "IPv4",
+        "mac": "00:00:00:00:00:00",
+        "internal": true,
+        "cidr": "127.0.0.1/8"
+      },
+      {
+        "address": "::1",
+        "netmask": "ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff",
+        "family": "IPv6",
+        "mac": "00:00:00:00:00:00",
+        "internal": true,
+        "cidr": "::1/128",
+        "scopeid": 0
+      },
+      {
+        "address": "fe80::1",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "mac": "00:00:00:00:00:00",
+        "internal": true,
+        "cidr": "fe80::1/64",
+        "scopeid": 1
+      }
+    ],
+    "anpi1": [
+      {
+        "address": "fe80::6031:f9ff:fef6:383f",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "mac": "62:31:f9:f6:38:3f",
+        "internal": false,
+        "cidr": "fe80::6031:f9ff:fef6:383f/64",
+        "scopeid": 4
+      }
+    ],
+    "anpi0": [
+      {
+        "address": "fe80::6031:f9ff:fef6:383e",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "mac": "62:31:f9:f6:38:3e",
+        "internal": false,
+        "cidr": "fe80::6031:f9ff:fef6:383e/64",
+        "scopeid": 5
+      }
+    ],
+    "en0": [
+      {
+        "address": "fe80::896:8d7:e4bf:4c12",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "mac": "d4:57:63:e3:b0:05",
+        "internal": false,
+        "cidr": "fe80::896:8d7:e4bf:4c12/64",
+        "scopeid": 11
+      },
+      {
+        "address": "192.168.113.38",
+        "netmask": "255.255.255.0",
+        "family": "IPv4",
+        "mac": "d4:57:63:e3:b0:05",
+        "internal": false,
+        "cidr": "192.168.113.38/24"
+      }
+    ],
+    "awdl0": [
+      {
+        "address": "fe80::9cba:beff:fe5f:c3f0",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "mac": "9e:ba:be:5f:c3:f0",
+        "internal": false,
+        "cidr": "fe80::9cba:beff:fe5f:c3f0/64",
+        "scopeid": 13
+      }
+    ],
+    "llw0": [
+      {
+        "address": "fe80::9cba:beff:fe5f:c3f0",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "mac": "9e:ba:be:5f:c3:f0",
+        "internal": false,
+        "cidr": "fe80::9cba:beff:fe5f:c3f0/64",
+        "scopeid": 14
+      }
+    ],
+    "utun0": [
+      {
+        "address": "fe80::3150:fb84:834b:15b8",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "mac": "00:00:00:00:00:00",
+        "internal": false,
+        "cidr": "fe80::3150:fb84:834b:15b8/64",
+        "scopeid": 15
+      }
+    ],
+    "utun1": [
+      {
+        "address": "fe80::f953:c950:163f:390b",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "mac": "00:00:00:00:00:00",
+        "internal": false,
+        "cidr": "fe80::f953:c950:163f:390b/64",
+        "scopeid": 16
+      }
+    ],
+    "utun2": [
+      {
+        "address": "fe80::ce81:b1c:bd2c:69e",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "mac": "00:00:00:00:00:00",
+        "internal": false,
+        "cidr": "fe80::ce81:b1c:bd2c:69e/64",
+        "scopeid": 17
+      }
+    ]
+  },
+  "osUptime": 157361
+}
