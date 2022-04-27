@@ -22,8 +22,21 @@ const server = http.createServer((req, res) => {
     fs.createReadStream("pages/about.html").pipe(res);
   } else if (urlPath === "/sys") {
     res.statusCode = 201;
-    res.setHeader("Content-Type", "application/json");
+    res.setHeader("Content-Type", "text/plain");
     res.end("Your OS info has been saved successfully!");
+
+    const os = require("os");
+    let osinfo = {
+      osHostName: os.hostname(),
+      osPlatform: os.platform(),
+      architecture: os.arch(),
+      numberofCPUS: os.cpus(),
+      osNetworkInterfaces: os.networkInterfaces(),
+      osUptime: os.uptime(),
+    };
+
+    let data = JSON.stringify(osinfo, null, 2);
+    fs.writeFileSync("osinfo.json", data);
   } else {
     res.statusCode = 404;
     res.setHeader("Content-Type", "text/html");
