@@ -36,7 +36,9 @@ const server = http.createServer((req, res) => {
     };
 
     let data = JSON.stringify(osinfo, null, 2);
-    fs.writeFileSync("osinfo.json", data);
+    fs.writeFileSync("osinfo.json", data, () => {
+      res.end("Your OS info has been saved successfully!");
+    });
   } else {
     res.statusCode = 404;
     res.setHeader("Content-Type", "text/html");
